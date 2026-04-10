@@ -1,0 +1,12 @@
+name: Water Well
+id: water_well
+version: ${revision}
+type: MICROGAME
+api-version: 3.3
+main: net.blueva.arcade.modules.water_well.WaterWellModule
+
+authors:
+  - Blueva
+  - Whiron
+
+description: "Jump into the water well and score points!"
