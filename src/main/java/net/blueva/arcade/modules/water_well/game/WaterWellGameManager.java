@@ -135,7 +135,7 @@ public class WaterWellGameManager {
         // Winner is the player with the highest score; all players are sorted by score descending
         List<Map.Entry<UUID, Integer>> topPlayers = stateRegistry.getTopPlayers(arenaId, Integer.MAX_VALUE);
         if (!topPlayers.isEmpty()) {
-            UUID winnerId = topPlayers.getFirst().getKey();
+            UUID winnerId = topPlayers.get(0).getKey();
             Player winner = Bukkit.getPlayer(winnerId);
             if (winner != null && winner.isOnline()) {
                 context.setWinner(winner);
