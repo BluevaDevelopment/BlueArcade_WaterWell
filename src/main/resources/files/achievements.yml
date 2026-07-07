@@ -1,10 +1,17 @@
-file_version: 1
+#  ____  _               _                      _
+# | __ )| |_   _  ___   / \   _ __ ___ __ _  __| | ___
+# |  _ \| | | | |/ _ \ / _ \ | '__/ __/ _` |/ _` |/ _ \
+# | |_) | | |_| |  __// ___ \| | | (_| (_| | (_| |  __/
+# |____/|_|\__,_|\___/_/   \_|_|  \___\__,_|\__,_|\___|
+#
+# [!] Arcade by Blueva | https://blueva.net/store/blue-arcade [!]
+
 category:
-  id: water_well
+  id: "water_well"
   name: "Water Well"
   description:
     - "Achievements tied to Water Well."
-  icon: WATER_BUCKET
+  icon: "WATER_BUCKET"
   sort_order: 20
 
 achievements:
@@ -12,7 +19,7 @@ achievements:
     name: "Diver"
     description:
       - "Play your first Water Well matches."
-    icon: WATER_BUCKET
+    icon: "WATER_BUCKET"
     phases:
       1:
         name: "First splash"
@@ -84,7 +91,7 @@ achievements:
     name: "Splash Master"
     description:
       - "Land in the water many times."
-    icon: PRISMARINE_SHARD
+    icon: "PRISMARINE_SHARD"
     phases:
       1:
         name: "First splashes"
@@ -156,7 +163,7 @@ achievements:
     name: "Well Champion"
     description:
       - "Win Water Well matches."
-    icon: DIAMOND
+    icon: "DIAMOND"
     phases:
       1:
         name: "First win"
@@ -228,7 +235,7 @@ achievements:
     name: "Aqua Artist"
     description:
       - "Land in water across many games."
-    icon: PRISMARINE_CRYSTALS
+    icon: "PRISMARINE_CRYSTALS"
     phases:
       1:
         name: "Painted puddle"
@@ -300,7 +307,7 @@ achievements:
     name: "Water Streak"
     description:
       - "Win and keep playing."
-    icon: HEART_OF_THE_SEA
+    icon: "HEART_OF_THE_SEA"
     phases:
       1:
         name: "Steady flow"

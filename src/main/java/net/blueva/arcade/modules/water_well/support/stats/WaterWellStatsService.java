@@ -27,13 +27,13 @@ public class WaterWellStatsService {
         }
 
         statsAPI.registerModuleStat(moduleInfo.getId(),
-                new StatDefinition("wins", moduleConfig.getStringFrom("language.yml", "stats.labels.wins", "Wins"), moduleConfig.getStringFrom("language.yml", "stats.descriptions.wins", "Water Well wins"), StatScope.MODULE));
+                new StatDefinition("wins", moduleConfig.getTranslation(null, "stats.labels.wins"), moduleConfig.getTranslation(null, "stats.descriptions.wins"), StatScope.MODULE));
         statsAPI.registerModuleStat(moduleInfo.getId(),
-                new StatDefinition("games_played", moduleConfig.getStringFrom("language.yml", "stats.labels.games_played", "Games Played"), moduleConfig.getStringFrom("language.yml", "stats.descriptions.games_played", "Water Well games played"), StatScope.MODULE));
+                new StatDefinition("games_played", moduleConfig.getTranslation(null, "stats.labels.games_played"), moduleConfig.getTranslation(null, "stats.descriptions.games_played"), StatScope.MODULE));
         statsAPI.registerModuleStat(moduleInfo.getId(),
-                new StatDefinition("water_landings", moduleConfig.getStringFrom("language.yml", "stats.labels.water_landings", "Water landings"), moduleConfig.getStringFrom("language.yml", "stats.descriptions.water_landings", "Successful water landings"), StatScope.MODULE));
+                new StatDefinition("water_landings", moduleConfig.getTranslation(null, "stats.labels.water_landings"), moduleConfig.getTranslation(null, "stats.descriptions.water_landings"), StatScope.MODULE));
         statsAPI.registerModuleStat(moduleInfo.getId(),
-                new StatDefinition("total_score", moduleConfig.getStringFrom("language.yml", "stats.labels.total_score", "Total score"), moduleConfig.getStringFrom("language.yml", "stats.descriptions.total_score", "Total points earned from water landings"), StatScope.MODULE));
+                new StatDefinition("total_score", moduleConfig.getTranslation(null, "stats.labels.total_score"), moduleConfig.getTranslation(null, "stats.descriptions.total_score"), StatScope.MODULE));
     }
 
     public void recordWaterLanding(Player player) {
